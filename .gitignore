@@ -1,7 +1,5 @@
-# Jupyter Notebook
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
-*.ipynb
-*.nbconvert.ipynb
 
 # Python
 __pycache__/
@@ -17,7 +15,8 @@ env.bak/
 venv.bak/
 
 # VS Code
-.vscode/
+.vscode/*
+!.vscode/settings.json
 
 # MacOS
 .DS_Store
